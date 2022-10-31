@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("../fonts/Norse-Bold.otf");
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+img {
+  max-height: 10vh;
+}
+
+#hero-background {
+  display: flex;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 40%;
+}
+
+#hero-logo {
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  height: 15%;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Norse Bold";
+  font-size: 6rem;
+  color: white;
+}
