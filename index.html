@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./static/css/style.css" rel="stylesheet">
+  <script src="./static/scripts/script.js" defer></script>
   <title>Sign Up</title>
 </head>
 
@@ -44,17 +45,17 @@
 
         <div class="form-item">
           <label for="phone_number">PHONE NUMBER</label>
-          <input type="tel" id="phone_number" name="phone_number" pattern="[+][0-9]{11}" required>
+          <input type="tel" id="phone_number" name="phone_number" pattern="[+][0-9]{11}" maxlength="12" required>
         </div>
 
         <div class="form-item">
-          <label for="password">PASSWORD</label>
-          <input type="password" id="password" name="password" required>
+          <label for="passwd">PASSWORD</label>
+          <input type="password" id="passwd" name="passwd" required>
         </div>
 
         <div class="form-item">
-          <label for="">CONFIRM PASSWORD</label>
-          <input type="password" id="" name="" required>
+          <label for="confirm-passwd">CONFIRM PASSWORD</label>
+          <input type="password" id="confirm-passwd" name="confirm-passwd" required>
         </div>
       </div>
     </form>
